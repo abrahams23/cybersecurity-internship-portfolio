@@ -1,1 +1,12 @@
+# Task 8 — Capture Network Traffic with Wireshark
+
+## Installation
+Wireshark was already available on the Kali Linux VM used for this internship. To avoid needing `sudo` for every capture, I added my account to the `wireshark` group:
+
+```bash
+sudo usermod -aG wireshark $USER
+
+After logging out and back in (or restarting the VM), I confirmed the change with:
+Bash
+groups
 
