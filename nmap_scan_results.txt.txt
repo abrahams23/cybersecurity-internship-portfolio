@@ -1,0 +1,44 @@
+nmap_scan_results.txt
+
+┌──(lekhetho㉿kali)-[~]
+└─$ cat ~/cybersecurity-internship-portfolio/task-1-nmap/nmap_scan_results.txt
+# Nmap 7.99 scan initiated Mon Sep 14 15:40:23 2026 as: /usr/lib/nmap/nmap --privileged -sV -O -F -Pn -oN nmap_scan_results.txt scanme.nmap.org
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.28s latency).
+Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+Not shown: 77 closed tcp ports (reset)
+PORT      STATE    SERVICE       VERSION
+9/tcp     filtered discard
+21/tcp    open     tcpwrapped
+22/tcp    open     ssh           OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (Ubuntu Linux; protocol 2.0)
+23/tcp    filtered telnet
+80/tcp    open     http          Apache httpd 2.4.7 ((Ubuntu))
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+143/tcp   filtered imap
+199/tcp   filtered smux
+444/tcp   filtered snpp
+543/tcp   filtered klogin
+554/tcp   filtered rtsp
+587/tcp   filtered submission
+1723/tcp  filtered pptp
+3306/tcp  filtered mysql
+3389/tcp  filtered ms-wbt-server
+4899/tcp  filtered radmin
+5666/tcp  filtered nrpe
+5900/tcp  filtered vnc
+8000/tcp  filtered http-alt
+8008/tcp  filtered http
+8009/tcp  filtered ajp13
+49156/tcp filtered unknown
+Device type: VoIP adapter|bridge|general purpose
+Running (JUST GUESSING): AT&T embedded (93%), Oracle Virtualbox (91%), Slirp (91%), QEMU (91%)
+OS CPE: cpe:/o:oracle:virtualbox cpe:/a:danny_gasparovski:slirp cpe:/a:qemu:qemu
+Aggressive OS guesses: AT&T BGW210 voice gateway (93%), Oracle Virtualbox Slirp NAT bridge (91%), QEMU user mode network gateway (91%)
+No exact OS matches for host (test conditions non-ideal).
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Sep 14 15:41:00 2026 -- 1 IP address (1 host up) scanned in 37.02 seconds
+                                                                                                             
+
